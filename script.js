@@ -1,30 +1,3 @@
-/*const select=document.querySelector('select');
-const list = document.querySelector('option');
-const h1 =document.querySelector('h1');
-
-select.addEventListener('change'()=>{
-    const choice= select.value;
-    let days = 31;
-    if(choice === 'exception'){
-        days = 28;
-    }else if(choice === even){
-        days = 30;
-    }
-    craeteCalender(days, choice);
-
-});
-
-function craeteCalender(days, choice){
-    list.innerHTML = '';
-    h1.textContent = choice;
-    for(let i = 1; i <= days; i++){
-        const listItem = document.createElement('li');
-        listItem.textContent = i;
-        list.appendChild(listItem);
-    }
-}
-craeteCalender(31, January);*/
-
 const select = document.querySelector('select');
 const list = document.querySelector('ul');
 const h1 = document.querySelector('h1');
